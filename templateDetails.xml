@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" client="site" method="upgrade">
+	
+	<name>templatename</name> <!-- insert your template name here -->
+	<creationDate>yyyy/mm/dd</creationDate><!-- insert the date you started coding -->
+	<author>Your Name</author><!-- insert your name -->
+	<copyright>Copyright © xxxx Company</copyright><!-- for who you are coding -->
+	<authorEmail>Your email</authorEmail><!-- your email address -->
+	<authorUrl>Your website</authorUrl><!-- your web profile / website -->
+	<version>1.0.0</version><!-- template version number -->
+	<description><![CDATA[ 
+		<h1>Joomla 3x template with Foundation 5</h1>
+		<p>Insert template description here if required</p>
+	]]></description><!-- optional template description -->
+	
+	<files> <!-- no need to edit -->
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions><!-- insert your module positions here -->
+		<position>debug</position>
+	</positions>
+	
+</extension>
